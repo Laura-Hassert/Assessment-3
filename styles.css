@@ -41,3 +41,12 @@ img {
 	background-color: yellow;
 	font-size: 15px;
 }
+
+h2 {
+	margin: auto;
+	width: 50%;
+}
+
+#links {
+	font-size: 10px;;
+}
