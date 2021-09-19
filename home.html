@@ -8,10 +8,10 @@
 <body>
 	<nav>
 		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+	        <li class="crumb" id="hyperlink"><a href="./home.html">Home</a></li>
+	        <li class="crumb" id="hyperlink"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb" id="hyperlink"><a href="./about.html">About</a></li>
+			<li class="crumb" id="hyperlink"><a href="./neighborhood.html">Neighborhood</a></li>
 	    </ol>
 	</nav>
 
@@ -20,13 +20,14 @@
 		<!-- insert hello world here -->
 		<p>Welcome to my website!</p>
 
-		<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsnapshot.canon-asia.com%2Farticle%2Fen%2F3-ideas-for-cute-cat-photos&psig=AOvVaw23jKME4SBC3_t_Iha9hlR-&ust=1631974616672000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjM7KuZhvMCFQAAAAAdAAAAABAD" id="cat-image">
+		<img src="https://d25tv1xepz39hi.cloudfront.net/2016-07-16/files/cat-sample_1313.jpg" alt="cat image" id="cat-image">
 
 		<ul>
 			<li>You look great today!</li>
 			<li>You're doing amazing!</li>
 			<li>You are my hero!</li>
 		</ul>
+		
 		<h2>Contact Us</h2>
 		<form id="contact">
 			Your name:
@@ -35,11 +36,10 @@
 			Message:
 			<input type="textarea" placeholder="Type message here"><br>
 
-			How did you hear about us?
-			<input type="checkbox" id="Google" value="Google"><label for="Google"> Google</label><br>
-			<input type="checkbox" id="friend" value="friend"><label for="friend"> A Friend</label><br>
-			<input type="checkbox" id="other" value="other"><label for="other"> Other</label><br>
-			<br>
+			How did you hear about us? <br>
+			<input type="checkbox" id="Google" value="Google" class="checkboxes"/><label for="Google"> Google</label>
+			<input type="checkbox" id="friend" value="friend" class="checkboxes"/><label for="friend"> A Friend</label>
+			<input type="checkbox" id="other" value="other" class="checkboxes"/><label for="other"> Other</label><br><br>
 
 			<input type="submit">
 

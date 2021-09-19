@@ -14,7 +14,7 @@ function faveRitual() {
 
 function colorBtns(event) {
     event.target.style.backgroundColor = "black"
-    event.target.style.color = "white"
+    event.target.style.color = "yellow"
 }
 
 function offBtns(event) {

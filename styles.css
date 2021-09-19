@@ -28,7 +28,6 @@ a:visited {
 	color: crimson;
 }
 
-
 input {
 	display: block;
 }
@@ -48,5 +47,14 @@ h2 {
 }
 
 #links {
-	font-size: 10px;;
+	font-size: 10px;
+}
+
+.checkboxes {
+	display:inline;
+}
+
+h1 {
+	margin: auto;
+	width: 50%;
 }
